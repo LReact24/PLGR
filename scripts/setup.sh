@@ -20,14 +20,14 @@ EOF
 mkdir app
 
 cat << EOF > app/page.js
-import LikeButton from './like-button';
+import LikeButton from "./like-button";
 
 function Header({ title }) {
-  return <h1>{title ? title : 'Default title'}</h1>;
+  return <h1>{title ? title : "Default title"}</h1>;
 }
 
 export default function HomePage() {
-  const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  const names = ["Ada Lovelace", "Grace Hopper", "Margaret Hamilton"];
 
   return (
     <div>
@@ -45,9 +45,9 @@ EOF
 
 
 cat << EOF > app/like-button.js
-'use client';
+"use client";
 
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function LikeButton() {
   const [likes, setLikes] = useState(0);
