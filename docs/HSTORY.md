@@ -5,5 +5,5 @@
 ```sh
 chmod +x scripts/setup.sh
 scripts/setup.sh
-npm install react@latest react-dom@latest next@latest
+
 ```
