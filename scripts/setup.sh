@@ -74,3 +74,5 @@ export default function LikeButton() {
   return <button onClick={handleClick}>Like ({likes})</button>;
 }
 EOF
+
+npm install react@latest react-dom@latest next@latest
